@@ -1,0 +1,12 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/ericmiller/Documents/Game Dev/GameDevTv/CPlusPlus Fundamentals/vscode-template-main'
+make game
+ 
+make[1]: Entering directory `/Users/ericmiller/Documents/Game Dev/GameDevTv/CPlusPlus Fundamentals/vscode-template-main'
+make[1]: Leaving directory `/Users/ericmiller/Documents/Game Dev/GameDevTv/CPlusPlus Fundamentals/vscode-template-main'
+ 
+make[1]: *** No rule to make target `main.c', needed by `game'.
+make: *** [all] Error 2
+
+make: Leaving directory `/Users/ericmiller/Documents/Game Dev/GameDevTv/CPlusPlus Fundamentals/vscode-template-main'
+ 
