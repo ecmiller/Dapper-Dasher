@@ -46,12 +46,9 @@ int main()
         }
 
         // Detect jump input (space key)
-        if(IsKeyPressed(KEY_SPACE)){
-            if(!isInAir)
-            {
-                // Apply jump velocity
-                velocity += jumpVelocity;
-            }
+        if(IsKeyPressed(KEY_SPACE) && !isInAir){
+            // Apply jump velocity
+            velocity += jumpVelocity;
         }
 
         // Update position
