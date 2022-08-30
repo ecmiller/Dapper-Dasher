@@ -45,7 +45,7 @@ int main()
             velocity += gravity;
         }
 
-        // Detect jump input (space key)
+        // Detect jump input (space key) while grounded
         if(IsKeyPressed(KEY_SPACE) && !isInAir){
             // Apply jump velocity
             velocity += jumpVelocity;
